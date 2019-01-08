@@ -1,4 +1,4 @@
-# developer-skills-processor
+# Developer Skills Processor
 
 A tool to identify the skills of a developer and categorize them. So it can be used to find matching project requirements, related developers or missing skills.
 
@@ -23,3 +23,9 @@ Processing this would suggest these: javascript, react and frontend
   { label: 'backend', value: 0.0909090909090909 }
 ]
 ```
+
+## Use cases
+- Matching project requirements with the right developer
+- Fuzzy match project requirements. A good "javascript" developer could potentially be good at any javascript framework.
+- Finding related developers
+- Find out missing skills
