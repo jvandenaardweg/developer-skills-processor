@@ -2,7 +2,7 @@
 
 A tool to identify the skills of a developer and categorize them. So it can be used to find matching project requirements, related developers or missing skills.
 
-In the example below we will get the related roles and skills based on a sentence.
+In the example below we will get the related roles and skills based on a sentence. A sentence that could be found on someone's LinkedIn profile or Resumé.
 
 ```javascript
 getRelatedRolesAndSkills(`Dutch developer who loves to work with React and Vue. Sometimes creates API's with Node and PostgresQL.`)
@@ -45,7 +45,8 @@ In the example above, we have classified that string of text to match certain ro
 As you can see, we have turned a string of text into code that could be used to automate things.
 
 ## Use cases
+- Parsing a Resumé and extract related roles and skills
 - Matching project requirements with the right developer
 - Fuzzy match project requirements. A good "javascript" developer could potentially be good at any javascript framework.
 - Finding related developers
-- Finding relevant/related skills
+- Finding related skills
