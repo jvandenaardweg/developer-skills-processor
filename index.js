@@ -53,7 +53,7 @@ classifier.addDocument(['.net', 'dotnet', 'php', 'node'], 'backend');
 classifier.train();
 
 // console.log(classifier.getClassifications('react and react native'));
-console.log(classifier.getClassifications('reactjs maven'));
+console.log(classifier.getClassifications('react'));
 
 // tfidf.addDocument('react and react native')
 // tfidf.tfidfs('react', function(i, measure) {
